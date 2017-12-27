@@ -42,18 +42,18 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oj9-Lj-ola" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="564" y="128.18590704647679"/>
+            <point key="canvasLocation" x="516" y="127"/>
         </scene>
-        <!--View Controller-->
+        <!--Emoji View Controller-->
         <scene sceneID="hpZ-gi-acj">
             <objects>
-                <viewController id="9nW-Fi-bvI" sceneMemberID="viewController">
+                <viewController id="9nW-Fi-bvI" customClass="EmojiViewController" customModule="EmojiDic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="As5-wR-oa9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🚗" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98G-7R-gcK">
-                                <rect key="frame" x="64.5" y="40" width="246" height="270"/>
+                                <rect key="frame" x="64.5" y="84" width="246" height="270"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="226"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -75,10 +75,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EJl-FK-ktg"/>
                     </view>
+                    <connections>
+                        <outlet property="definitionLabel" destination="2LO-OP-RCg" id="9KG-iH-Pjo"/>
+                        <outlet property="emojiLabel" destination="98G-7R-gcK" id="Tkr-T7-zRc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J64-Vr-j0b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1375.2" y="127.28635682158921"/>
+            <point key="canvasLocation" x="1366" y="127"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uaI-Yc-0h1">
@@ -96,7 +100,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1m-Fn-dyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-156" y="128"/>
+            <point key="canvasLocation" x="-473" y="128"/>
         </scene>
     </scenes>
 </document>
