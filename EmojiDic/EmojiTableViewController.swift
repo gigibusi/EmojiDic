@@ -35,4 +35,10 @@ var emojis = ["😄","🧐","🐶","🌧","💩","🚗","👌🏻"]
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        performSegue(withIdentifier: "ourSague", sender: nil)
+    }
+    
 }
